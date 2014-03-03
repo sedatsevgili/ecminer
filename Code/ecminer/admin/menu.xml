@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<menu name="Ana Sayfa" url="admin/default.php"></menu>
+	<menu name="Hesaplar" url="accounts/default.php">
+		<submenu submenuname="Listele" submenuurl="accounts/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="accounts/add.php"></submenu>
+	</menu>
+	<menu name="Sınıflandırıcılar" url="classifier/default.php">
+		<submenu submenuname="Listele" submenuurl="classifier/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="classifier/add.php"></submenu>
+	</menu>
+	<menu name="Veri Alanları" url="importfield/default.php">
+		<submenu submenuname="Listele" submenuurl="importfield/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="importfield/add.php"></submenu>
+	</menu>
+	<menu name="Veri Tipleri" url="importtype/default.php">
+		<submenu submenuname="Listele" submenuurl="importtype/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="importtype/add.php"></submenu>
+	</menu>
+	<menu name="Veriler" url="import/default.php">
+		<submenu submenuname="Listele" submenuurl="import/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="import/add.php"></submenu>
+	</menu>
+	<menu name="Siteler" url="site/default.php">
+		<submenu submenuname="Listele" submenuurl="site/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="site/add.php"></submenu>
+	</menu>
+	<menu name="Çıkış" url="admin/run.php?do=logout"></menu>
+</menus>

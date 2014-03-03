@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<menu name="Ana Sayfa" url="members/default.php"></menu>
+	<menu name="Veriler" url="members/import/default.php">
+		<submenu submenuname="Listele" submenuurl="members/import/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="members/import/add.php"></submenu>
+	</menu>
+	<menu name="Siteler" url="members/site/default.php">
+		<submenu submenuname="Listele" submenuurl="members/site/list.php"></submenu>
+		<submenu submenuname="Ekle" submenuurl="members/site/add.php"></submenu>
+	</menu>
+	<menu name="Analiz" url="members/analyze/default.php">
+		<submenu submenuname="Naive Bayes" submenuurl="members/analyze/naivebayes/default.php"></submenu>
+		<submenu submenuname="Karar Ağacı" submenuurl="members/analyze/decisiontree/default.php"></submenu>
+	</menu>
+	<menu name="Çıkış" url="members/run.php?do=logout"></menu>
+</menus>
